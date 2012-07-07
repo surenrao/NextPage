@@ -1,0 +1,31 @@
+{
+  "name": "Next Page",
+  "version": "1.0.4",
+  "page_action": {
+    "default_title": "Next Page v1.0.4",    
+    "default_icon": "next-iconx19.png"	
+  },  
+  "description": "When viewing pages or images which are numbered and in serial order,this extension can help you navigate to Next Page.",
+  "icons": { "16": "next-iconx16.png",
+             "48": "next-iconx48.png",
+            "128": "next-iconx128.png" },
+  "manifest_version": 2,
+  "content_security_policy": "script-src 'self' https://ssl.google-analytics.com; object-src 'self'",
+  "permissions": [
+    "tabs", "https://*/*", "http://*/*"
+  ],
+  "content_scripts": [
+    {
+      "matches": ["https://*/*", "http://*/*"],
+      "js": ["jquery-1.7.1.js","contentscript.js"]
+    }
+  ],    
+  "background": {
+    "page": "background.html"
+  },  
+  "web_accessible_resources": [
+	"next-iconx16.png",
+    "next-iconx48.png",
+    "next-iconx128.png"
+  ] 
+}
