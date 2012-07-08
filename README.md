@@ -1,4 +1,4 @@
-# Next Page (Google chrome extension)
+# ![My image](https://github.com/surenrao/NextPage/raw/master/next-iconx48.png) Next Page (Google chrome extension)
 
 https://chrome.google.com/webstore/detail/onajnlcpcfhahbmnppgkajefblapkhln
 
@@ -11,5 +11,6 @@ You can use this to navigate manga, comics, photo galleries etc. provided they a
 [++NEW++] Added Hotkey shortcut > SHIFT + RIGHT ARROW
 
 example urls :-
-www.foo.com/image_001.html -> www.foo.com/image_002.html
-www.bar.com/page_001.jpg -> www.bar.com/page_002.jpg
+
+    www.foo.com/image_001.html -> 'www.foo.com/image_002.html
+    www.bar.com/page_001.jpg -> 'www.bar.com/page_002.jpg
